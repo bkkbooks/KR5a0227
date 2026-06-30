@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0227/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0227/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 紫元君授道傳心法
+  date: '2015-08-28 23:42:40.979805'
+  source:
+    repository: kanripo
+    path: KR5a0227
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0227_000-HFL.yaml, hash: 'sha256:92df6cfc64f0fb3bda6be98d8bf470d860d1e89cbaf4df366738ea53b57a1960'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0227_000-HFL.markers.yaml, hash: 'sha256:f7cbf28fed149e3161c2bed47d66f4b94fdc16d7d0ad492dfc387277c83d48dc'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0227_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2536
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3557763fe924d76e422292a570872337dd1e94449e3a53e0b155b568cf2c3c77
